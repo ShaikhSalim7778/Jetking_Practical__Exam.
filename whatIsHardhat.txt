@@ -1,0 +1,22 @@
+What is HardHat?
+
+Hardhat is a popular devlopment enviroment and toolset for Etherium smart contract devlopment.
+It's a designed to simplify the process of creating, testing and devloping smart contracts on the Etherium Blockchain.
+
+some key aspect of HardHat:
+
+01)	Smart Contract Devlopment
+
+02)	Testing Network
+
+03)	Local Devlopment Blockchain
+
+04)	TypeScript Support
+
+05) 	Scriptable Task
+
+06)	Extensibility with Plugins
+
+07) 	Mainnet Forking
+
+08)	Community and Documentation

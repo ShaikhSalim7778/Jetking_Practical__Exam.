@@ -1,0 +1,69 @@
+ Demonstrate the steps involved in the process of installation and configuration of Hardhat Development Environment.
+
+
+To install and configure  the  Hardhat devlopment Enviroment, follow these step:
+
+01.	Prerequisites
+
+		Node.js and npm installed on your system.
+
+
+02. 	Creat a new Project Directory
+
+		open  terminal and navigate directory
+		
+			mkdir my-ethereum-project
+			cd my-ethereum-project
+
+
+03.	Initialize a new Node.js Project
+
+		Run the following cammand
+
+			npm init -y
+
+
+04.	Install Hardhat
+
+		Install HardHat Globally
+
+			nmp install -g hardhat
+
+
+05.	Create a HardHat Configuration File
+
+		npx hardhat
+
+
+06. 	Install Required Dependencies 
+
+		npm install --save-dev hardhat-waffle
+
+
+07.	Configure the HardHat Network
+
+		module.exports + {
+			solidity: "0.8.0",
+			networks: {
+				hardhat: {},
+			}
+		};
+
+
+08.	Write smart contract and test
+
+		Create a contract directory to store your solidity smart contract and a test directory to store your test.
+
+
+09.	Compile and Test
+
+		Compile Contracts:
+			
+			npx hardhat compile
+
+		Run Tests
+
+			npx hardhat test
+
+
+10.	 Interect with Contracts
